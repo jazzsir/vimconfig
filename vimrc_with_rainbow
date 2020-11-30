@@ -286,3 +286,11 @@ set tags=tags;/
 source ~/vimconfig/plugins/checksymbol.vim
 "hbseo hightlight ctrl-h + number
 source ~/vimconfig/plugins/simplehighlight.vim
+"hbseo Rainbow Parentheses
+source ~/vimconfig/plugins/rainbow_parentheses.vim
+
+"hbseo Rainbow Parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
